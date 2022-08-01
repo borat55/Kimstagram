@@ -1,0 +1,28 @@
+{
+  "name": "kimstagram",
+  "version": "1.0.0",
+  "description": "Share your wonderful life with people you love!",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borat55/Kimstagram.git"
+  },
+  "author": "Boram Kim<boram8655@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/borat55/Kimstagram/issues"
+  },
+  "homepage": "https://github.com/borat55/Kimstagram#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/node": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "nodemon": "^2.0.19"
+  }
+}
